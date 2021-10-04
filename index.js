@@ -18,24 +18,24 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html'); // Used to load the site
 });
 
-// Used to redirect to the about page
-app.get('/about', (req, res) => {
-    res.sendFile(__dirname + "/about.html");
-});
+// // Used to redirect to the about page
+// app.get('/about', (req, res) => {
+//     res.sendFile(__dirname + "/about.html");
+// });
 
-// Used to open resume
-app.get('/resume', (req, res) => {
-    res.sendFile(__dirname + '/resume.pdf');
-});
+// // Used to open resume
+// app.get('/resume', (req, res) => {
+//     res.sendFile(__dirname + '/resume.pdf');
+// });
 
-// Used to redirect to the pictures page
-app.get('/pictures', (req, res) => {
-    res.sendFile(__dirname + '/pictures.html');
-});
+// // Used to redirect to the pictures page
+// app.get('/pictures', (req, res) => {
+//     res.sendFile(__dirname + '/pictures.html');
+// });
 
-// Used to redirect to the Jekyll blog when it's up
-app.get("/blog", (req, res) => {
-    res.redirect("https://jinsung-kim.github.io/");
-});
+// // Used to redirect to the Jekyll blog when it's up
+// app.get("/blog", (req, res) => {
+//     res.redirect("https://jinsung-kim.github.io/");
+// });
 
 app.listen(PORT, () => console.log(`Server is listening on port ${PORT}`));
