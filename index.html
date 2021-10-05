@@ -1,80 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8" />
-	<title>Olivia Huang</title>
-	<link rel="stylesheet" type="text/css" href="style.css"/>
-	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <title>Jin Kim</title>
 </head>
 
+<style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+    .wrapper {
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+    }
 
-<body> 
+    body {
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 
-	<div class="container">
-		<header>
-			<h1> Web Development Assignment One </h1> <!--- This is the main header--->
-			<h2> Olivia Huang </h2>
-		 	<img src="images/nyu.jpg" alt="me" style="width:400px;height:500px;"/>
-		</header>
+    @media only screen and (max-width: 400px) {
+        .content {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+    }
 
-	 	<section>
-	 		<h2>Hello, my name is Olivia...</h2> <!--- About section --->
-	 				
-	 		<p>
-	 			...and I am currently a sophomore at NYU. Being a <a href = "https://gallatin.nyu.edu/"> Gallatin </a> student makes my major/minor kind of confusing. But in short, my concentrated area of study is Computer Science along with elements of creative design/fashion. Ideally I'd like to work at a job with a CS foundation (like web design or app development), but for a major fashion-related company (like Vogue or Elle Magazine).
-			</p>
-			<br>
-			</section>
+    .top-header {
+        text-align: center;
+    }
 
+    li {
+        padding-bottom: 5px;
+    }
 
-		<section>
-			<h2>Major/Minor</h2>
-			<ul>
-				<li> Major: Computer Science </li>
-				<li> Minor: Web Programming and Applications</li>
-			</ul>
+    a {
+        text-decoration: none;
+        color: black;
+    }
 
+    a:hover {
+        color: blue;
+    }
 
-			<h2> Relevant Courses</h2>
-			<ul>
-				<li> Intro to Programming </li>
-				<li> Web Design & Programming </li>
-				<li> Intro to Computer Science </li>
-			</ul>
+</style>
 
-			<h2> What do you hope to learn from this course </h2>
-			<ul> 
-				<li> How to create a website </li>
-				<li> Multimedia Design </li>
-				<li> Animation </li>
-			</ul> 
-		</section>
-
-		<section>
-			<h2> Here are some images of me... </h2>
-
-			<p>
-				<img src="images/1.jpg" alt="me" style="width:400px;height:500px;"/>
-			</p>
-			<p>
-				<img src="images/10.jpg" alt="me" style="width:400px;height:500px;"/>
-			</p>
-
-		</section>
-
-		<section>
-			<h2> Here is a video of me playing the piano... </h2>
-			<p>
-				<iframe width="560" height="315" src="video/piano.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</p>
-		</section>
-	</div>
-
+<body>
+    <div class="wrapper">
+        <div class="top-header">
+            <h1>
+                About Me
+            </h1>
+        </div>
+        <div class="content">
+            <p>
+                I work on many different technologies, but am primarily focused on machine learning and
+                algorithmic/math theory. Currently I am working on the Human Computer Interaction team at New York University
+                doing research.
+                I also work for two different start ups, developing full stack applications and maintaining databases and 
+                infrastructure.
+            </p>
+            <p>
+                I am also a full time student at New York University, pursuing my Master's degree in computer science.
+            </p>
+            <p>
+                Outside of computer science, I am interested in fashion, sports, and music. I try to create things
+                that are of interest to me.
+            </p>
+            <p>
+                Here are some of the projects that interest me that I have worked on in the past:
+            </p>
+            <ul>
+                <li>
+                    A mobility (iOS) application that allows low vision clients to connect with their specialists using a data
+                    driven model.
+                </li>
+                <li>
+                    An enhanced fashion search engine focused on developing individual style and brand discovery.
+                </li>
+                <li>
+                    A skate (iOS) application that shares local spots to skate amongst skaters using a geographical algorithm.
+                </li>
+                <li>
+                    A chess engine built on mini max game theory. Able to calculate scores for each move made.
+                </li>
+                <li>
+                    A fashion application for users to put together outfits based on theme given a link to any ecommerce
+                    marketplace.
+                </li>
+                <li>
+                    A pomodoro timer that is able to track how long a user is able to focus.
+                </li>
+                <li>
+                    A Discord bot that is able to register user commands to perform a wide range of tasks.
+                </li>
+                <li>
+                    A StockX machine learning model that is able to estimate the resell price of a shoe.
+                </li>
+                <li>
+                    An AQI (iOS) application that calculates the air quality using weather APIs and an 
+                    embedded bluetooth sensor system.
+                </li>
+                <li>
+                    A calculator that is able to derive, integrate, and calculate complex calculus equations.
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
-
 </html>
-
-
-
-
