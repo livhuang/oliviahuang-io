@@ -49,6 +49,27 @@
         color: lightskyblue;
     }
 
+    .videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+    }
+    
+    .videoWrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .imageWrapper {
+        text-align: center;
+    }
+    .centerText{
+        text-align: center;
+    }
 </style>
 
 <body>
@@ -57,14 +78,42 @@
             <h1>
                 About Me
             </h1>
-            <img src ="https://i.imgur.com/iwciXNQ.jpg" style = "text-align: center; max-width: 500px;">
+            <img src ="https://i.imgur.com/iwciXNQ.jpg" style = "text-align: center; max-width: 75%;">
         </div>
         <div class="content">
 			
             <p>
-				Hi, my name is Olivia Huang and I am a senior at NYU's Gallatin School of Individualized Study. I am building my own major, concentrating in
-				Software Engineering and Human Behavior. I'm interested in psychology and behavioral sciences so I can better understand the human mind, while
-				navigating how to create software that benefits the collectives' needs. I aspire to enhance the human condition through things I create.			
+				Hi, my name is Olivia Huang and I am a senior at NYU's Gallatin School of Individualized Study. I am building my own major, concentrating in 
+                Software Engineering and Human Behavior. 
+                My concentration navigates the intersection of technology and ethics through the academic disciplines of psychology (behavioral sciences), philosophy (ethics & morality), and cultural strategy. 
+                I am interested in understanding how the human mind interplays with the condition of society, in order to explore how technology can be utilized in benefiting the collective's needs. 
+                I did not want to take the traditional Computer Science major route while studying at NYU, because I believe that studying the humanities should coincide with developing technologies of the future 
+                that will shape and influence the cultural ethnosphere. There are many ethical implications that are posed by the accelerating trajectory of technology, such as 
+                <ul>
+                    <li>
+                        Surveillance Capitalism
+                    </li>
+                    <li>
+                        Big Data: User privacy & data mining
+                    </li>
+                    <li>
+                        Genetic Engineering
+                    </li>
+                    <li>
+                        Artificial Intelligence & prediction bias
+                    </li>
+                    <li>
+                        etc.
+                    </li>
+                </ul>
+                Even the rise of social media in the past decade opens discourse to the question: 
+                <br>
+                <div class = "centerText">
+                    <i> Are we losing meaning in humanity to the lack of oversight and responsability in technological evolution?</i>
+                </div>
+               
+                I aspire to renegotiate the realm of software engineering towards ethical parameters & enhance the human condition through things I create.
+          
             </p>
             <p>
                 Currently, I am working on iOS development for <a href="https://www.whatdazeit.com/">Everydaze</a>, which is an application that incentivizes 
@@ -78,10 +127,37 @@
             <p>
                 I am currently with <a href = "https://www.wilhelmina.com/">Wilhelmina Models</a>, based in NYC. 
 				Here is a link to <a href = "https://www.wilhelmina.com/new-york/women/showroom/7231-olivia-huang/"> my portfolio</a>.
+                
+            </p>
+
+            <div class = "imageWrapper">
+                <img src = "https://i.imgur.com/NejBHDe.jpg" style = "text-align: center; max-height: 75%; max-width: 75%;">
+            </div>
+           
+
+            <p>
+                I started playing the piano when I was 5-years-old and the violin when I was 7.
+                <div class = "videoWrapper">
+                    <iframe 
+                        width="420" height="345" style="text-align:center" src="https://www.youtube.com/embed/Dflj4W3erZE">
+                    </iframe>
+                </div>
+            </p>
+
+
+            <p>
+                At this point I am honestly just trying to populate my website with whatever I can think of that I've put on the internet. 
+                Here is a video of my volleyball recruiting video from when I was 16. If anybody is interested. 
+                <div class = "videoWrapper">
+                    <iframe 
+                        width="420" height="345" style="text-align:center" src="https://www.youtube.com/embed/1un2njnkXVo">
+                    </iframe>
+                </div>
             </p>
 			<p>
 				Find more of me and...
 			</p>
+
             <ul>
                 <li>
                     my personality on <a href = "https://www.tiktok.com/@olivia...huang?">TikTok</a>
@@ -93,7 +169,7 @@
                     my <a href = "https://www.instagram.com/olivia.huang/?hl=en">Instagram</a>
                 </li>
                 <li>
-                    a <a href = "https://storymaps.arcgis.com/stories/52db05c30536464dac89085fa1740936">paper I wrote on Neo-Orientalism</a>
+                    a <a href = "https://storymaps.arcgis.com/stories/52db05c30536464dac89085fa1740936">paper I published on Neo-Orientalism</a>
                 </li>
 				<li>
 					my <a href ="https://www.linkedin.com/in/olivia-huang-21b73a14b/">LinkedIn</a>, which needs a lot of updating
